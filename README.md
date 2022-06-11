@@ -9,11 +9,11 @@ We can configure our Kubernetes using Linode cloud provider →
 
 Now fill the details and create a node
 
-![Screenshot 2022-06-11 at 3.38.42 PM.png](Kubernetes%201627a4705afa41d2af0657bed77d99bd/Screenshot_2022-06-11_at_3.38.42_PM.png)
+![Screenshot 2022-06-11 at 3.38.42 PM.png](Screenshot_2022-06-11_at_3.38.42_PM.png)
 
 Now after creating we will get a master node link and three nodes which we selected
 
-![Screenshot 2022-06-11 at 3.38.42 PM.png](Kubernetes%201627a4705afa41d2af0657bed77d99bd/Screenshot_2022-06-11_at_3.38.42_PM%201.png)
+![Screenshot 2022-06-11 at 3.38.42 PM.png](Screenshot_2022-06-11_at_3.38.42_PM%201.png)
 
 Now we need to install kubectl on our host machine which is required for using kubernetes.
 
@@ -38,7 +38,7 @@ sudo mv ./kubectl /usr/local/bin/kubectl
 
 Now copy our kubernetes yaml config file
 
-![Screenshot 2022-06-11 at 5.45.43 PM.png](Kubernetes%201627a4705afa41d2af0657bed77d99bd/Screenshot_2022-06-11_at_5.45.43_PM.png)
+![Screenshot 2022-06-11 at 5.45.43 PM.png](Screenshot_2022-06-11_at_5.45.43_PM.png)
 
 ```bash
 nano kubeconfig.yaml
